@@ -1,6 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Юлия Агеева](https://up.htmlacademy.ru/htmlcss/14/user/87240).
+* Наставник: [Михаил Савотиков](https://htmlacademy.ru/profile/id98316).
 
 ---
 
