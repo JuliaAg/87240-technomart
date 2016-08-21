@@ -1,25 +1,164 @@
-body {
-    font-size: 13px;
-    line-height: 24px;
-    color: #333333;
-    font-weight: normal;
-    font-family: "PT Sans";
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 30px;
-    color: #32425c;
-    font-weight: normal;
-    font-family: "Cuprum";
-    text-transform: uppercase;
-}
-
-h2 {
-    font-size: 30px;
-    line-height: 24px;
-    color: #000000;
-    font-weight: normal;
-    font-family: "Cuprum";
-    text-transform: uppercase;
-}
+            body {
+                font-size: 13px;
+                line-height: 24px;
+                color: #333333;
+                font-weight: normal;
+                font-family: "PT Sans";
+                margin: 0 padding: 0
+            }
+            
+            .clearfix {
+                content: '';
+                display: table;
+                clear: both;
+            }
+            
+            h1 {
+                font-size: 30px;
+                line-height: 30px;
+                color: #32425c;
+                font-weight: normal;
+                font-family: "Cuprum";
+                text-transform: uppercase;
+            }
+            
+            h2 {
+                font-size: 30px;
+                line-height: 24px;
+                color: #000000;
+                font-weight: normal;
+                font-family: "Cuprum";
+                text-transform: uppercase;
+            }
+            
+            .main-header {
+                margin-bottom: 120px;
+            }
+            
+            .upper-header {
+                min-height: 70px;
+                width: 940px;
+            }
+            
+            .container {
+                width: 940px;
+                margin: 0 auto;
+                padding: 0 10px;
+            }
+            
+            .info {
+                float: left;
+                min-height: 70px;
+                width: 940px;
+            }
+            
+            .main-navigation {
+                min-height: 60px;
+                width: 940px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 120px;
+            }
+            
+            .user-block {
+                float: right;
+                min-height: 70px;
+                width: 300px;
+            }
+            
+            .features {
+                margin-bottom: 20px;
+            }
+            
+            .features-item {
+                float: left;
+                width: 300px;
+                min-height: 124px;
+                margin-right: 20px;
+            }
+            
+            .features-item features-item-techno {
+                margin-right: 0;
+            }
+            
+            .popular {
+                width: 940px;
+                min-height: 90px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+                padding: 0 10px;
+            }
+            
+            .wrapper {
+                width: 940px;
+                margin: 0 auto;
+                padding: 0 10px;
+            }
+            
+            .good-card {
+                float: left;
+                height: 318px;
+                width: 220px;
+                margin-right: 20px;
+            }
+            
+            .good-card good-card-new {
+                margin-right: 0;
+            }
+            
+            .producers-gallery {
+                width: 940px;
+                margin: 0 auto;
+                padding: 0 auto;
+                margin-bottom: 88px
+            }
+            
+            .service {
+                width: 940px;
+                margin: 0 auto;
+                padding: 0 auto;
+                margin-bottom: 76px;
+            }
+            
+            .about {
+                float: left;
+                width: 620px;
+                height: 340px;
+                padding: 0 10;
+                margin-bottom: 88px;
+            }
+            
+            .contacts {
+                float: right;
+                width: 300px;
+                height: 340px;
+                padding: 0 10;
+                margin-bottom: 88px;
+            }
+            
+            .main-footer {
+                margin-top: 88px;
+            }
+            
+            .footer-left-block {
+                float: left;
+                width: 380px;
+            }
+            
+            .footer-right-block {
+                float: right;
+                width: 380px;
+            }
+            
+            .footer-copyright {
+                float: left;
+                width: 300px;
+                margin-right: 20px;
+            }
+            
+            .footer-social {
+                float: left;
+                width: 300px;
+                margin-right: 20px;
+            }
