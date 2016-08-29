@@ -4,16 +4,17 @@
                 color: #333333;
                 font-weight: normal;
                 font-family: "PT Sans";
-                margin: 0 padding: 0
+                margin: 0;
+                padding: 0;
             }
             
-            .clearfix {
+            .clearfix::after {
                 content: '';
                 display: table;
                 clear: both;
             }
             
-            h1 {
+            h2 {
                 font-size: 30px;
                 line-height: 30px;
                 color: #32425c;
@@ -22,7 +23,7 @@
                 text-transform: uppercase;
             }
             
-            h2 {
+            h3 {
                 font-size: 30px;
                 line-height: 24px;
                 color: #000000;
@@ -33,72 +34,293 @@
             
             .main-header {
                 margin-bottom: 120px;
+                background-color: #f1f5f7;
             }
             
             .upper-header {
-                min-height: 70px;
-                width: 940px;
+                width: 100%;
+                min-height: 43px;
+                background-color: #293449;
+            }
+            
+            .info-header {
+                float: left;
+                width: 300px;
+            }
+            
+            .index-logo {
+                float: left;
+                width: 220px;
+                min-height: 48px;
+                margin-right: 20px;
+                background-color: #ee3643;
+            }
+            
+            .phone {
+                float: left;
+                width: 270px;
+                padding: 15px 15px;
+                color: rgb(238, 54, 67);
+                line-height: 17px;
+                font-size: 21px;
+                border: 2px solid white;
+            }
+            
+            p.adress {
+                display: inline-block;
+                padding: 10px 15px;
+                margin: 0;
+                color: rgb(50, 66, 92);
+                line-height: 18px;
+                font-size: 16px;
+                text-align: center;
+            }
+            
+            .enter {
+                margin-left: 60px;
+                padding-top: 10px;
+                padding-right: 25px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                background: white;
+                line-height: 18px;
+                font-size: 21px;
+            }
+            
+            .upper-menu {
+                line-height: 18px;
+                font-size: 17px;
+                color: white;
+                text-transform: uppercase;
+            }
+            
+            .sign-up {
+                padding: 11px 25px;
+                background: white;
+                line-height: 18px;
+                font-size: 21px;
+            }
+            
+            .sign-up a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .sign-up a:hover {
+                color: rgb(238, 54, 67);
+            }
+            
+            .sign-up a:active {
+                color: rgb( 197, 197, 197);
             }
             
             .container {
                 width: 940px;
                 margin: 0 auto;
-                padding: 0 10px;
             }
             
             .info {
+                width: 100%;
+            }
+            
+            .info-left-block {
                 float: left;
-                min-height: 70px;
+            }
+            
+            .info-right-block {
+                float: right;
+                display: inline-block;
+            }
+            
+            nav {
                 width: 940px;
+                margin: 0 auto;
+                background: rgb(50, 66, 92);
             }
             
             .main-navigation {
-                min-height: 60px;
-                width: 940px;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 120px;
+                width: 100%;
+                padding-bottom: 120px;
+                height: 55px;
+                padding: 0;
+                margin: 0;
+                font-size: 0;
+                text-align: center;
+                border-bottom: 5px solid #293449;
+            }
+            
+            .main-navigation-list ul {
+                display: inline-block;
+            }
+            
+            .main-navigation-list li {
+                display: inline-block;
+            }
+            
+            .main-navigation-list a {
+                display: block;
+                padding: 20px 30px;
+                margin-right: -0.2em;
+                line-height: 17px;
+                font-size: 17px;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            
+            .main-navigation-list a:hover {
+                background: rgb(41, 52, 73);
+            }
+            
+            .main-navigation-list a:active {
+                background: rgb(41, 52, 73);
+                color: rgb(142, 147, 156);
             }
             
             .user-block {
                 float: right;
-                min-height: 70px;
                 width: 300px;
+            }
+            
+            p.info-adress {
+                display: table;
+                padding: 10px 15px;
+                margin: 0;
+                color: rgb(50, 66, 92);
+                line-height: 18px;
+                font-size: 16px;
+                text-align: center;
             }
             
             .features {
                 margin-bottom: 20px;
             }
             
-            .features-item {
+            .features-left {
                 float: left;
-                width: 300px;
-                min-height: 124px;
-                margin-right: 20px;
+                display: inline-block;
             }
             
-            .features-item features-item-techno {
-                margin-right: 0;
+            .features-right {
+                float: right;
+                display: inline-block;
+            }
+            
+            .features-item.features-item-materials {
+                float: left;
+                display: inline-block;
+                width: 270px;
+                height: 92px;
+                background-color: #f6b22d;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .features-item.features-item-instruments {
+                float: left;
+                display: inline-block;
+                width: 270px;
+                height: 92px;
+                background-color: #4aafde;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .slide {
+                float: left;
+                display: inline-block;
+                width: 590px;
+                height: 217px;
+                background-color: #b9b9b9;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .features-item.features-item-techno {
+                float: right;
+                display: inline-block;
+                width: 270px;
+                height: 92px;
+                background-color: #cc79d1;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .features-item.features-item-sale {
+                float: right;
+                display: inline-block;
+                width: 270px;
+                height: 92px;
+                background-color: #85d179;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .features-item.features-item-delivery {
+                float: right;
+                display: inline-block;
+                width: 270px;
+                height: 92px;
+                background-color: #f6b22d;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-bottom: 20px;
             }
             
             .popular {
-                width: 940px;
-                min-height: 90px;
-                margin-left: auto;
-                margin-right: auto;
+                width: 890px;
+                height: 40px;
                 margin-bottom: 20px;
-                padding: 0 10px;
+                padding-left: 30px;
+                padding-right: 20px;
+                padding-bottom: 25px;
+                padding-top: 25px;
+                background-color: #f7f3ec;
             }
             
-            .wrapper {
-                width: 940px;
-                margin: 0 auto;
-                padding: 0 10px;
+            .popular-headline {
+                float: left;
+                width: 540px;
+            }
+            
+            .popular-btn {
+                float: right;
+                width: 253px;
+                height: 38px;
+                background: #ee3643;
+                text-align: center;
+                line-height: 18px;
+                font-size: 14px;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            
+            .popular-goods > .good-card:nth-child(4n) {
+                margin-right: 0px;
             }
             
             .good-card {
                 float: left;
-                height: 318px;
                 width: 220px;
                 margin-right: 20px;
             }
@@ -108,37 +330,55 @@
             }
             
             .producers-gallery {
-                width: 940px;
-                margin: 0 auto;
-                padding: 0 auto;
-                margin-bottom: 88px
+                margin-bottom: 90px
             }
             
             .service {
-                width: 940px;
-                margin: 0 auto;
-                padding: 0 auto;
+                padding-top: 60;
+                padding-bottom: 60;
                 margin-bottom: 76px;
+                background-color: #f2f6f8;
+                width: 100%;
+            }
+            
+            .left-service {
+                float: left;
+                display: inline-block;
+                width: 300px;
+            }
+            
+            .right-service {
+                float: right;
+                display: inline-block;
+                width: 620px;
             }
             
             .about {
                 float: left;
                 width: 620px;
-                height: 340px;
-                padding: 0 10;
                 margin-bottom: 88px;
             }
             
             .contacts {
                 float: right;
                 width: 300px;
-                height: 340px;
-                padding: 0 10;
                 margin-bottom: 88px;
             }
             
-            .main-footer {
-                margin-top: 88px;
+            .main-footer {}
+            
+            .bottom-footer {
+                background-color: #293449;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            
+            .upper-footer {
+                background-color: #32425c;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
             }
             
             .footer-left-block {
@@ -161,4 +401,8 @@
                 float: left;
                 width: 300px;
                 margin-right: 20px;
+            }
+            
+            .footer-right-block li {
+                display: inline-block;
             }
