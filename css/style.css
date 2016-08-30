@@ -198,12 +198,13 @@
             
             .features-left {
                 float: left;
-                display: inline-block;
+                width: 620px;
+                margin-right: 20pxx;
             }
             
             .features-right {
                 float: right;
-                display: inline-block;
+                width: 300px;
             }
             
             .features-item.features-item-materials {
@@ -230,7 +231,6 @@
                 padding-top: 15px;
                 padding-right: 15px;
                 padding-left: 15px;
-                margin-right: 20px;
                 margin-bottom: 20px;
             }
             
@@ -338,7 +338,7 @@
                 padding-bottom: 60;
                 margin-bottom: 76px;
                 background-color: #f2f6f8;
-                width: 100%;
+                width: 940px;
             }
             
             .left-service {
@@ -353,10 +353,13 @@
                 width: 620px;
             }
             
+            .my-company {
+                margin-bottom: 88px;
+            }
+            
             .about {
                 float: left;
                 width: 620px;
-                margin-bottom: 88px;
             }
             
             .contacts {

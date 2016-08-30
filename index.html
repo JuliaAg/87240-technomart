@@ -10,56 +10,49 @@
 <body>
     <header class="main-header">
         <div class="upper-header">
-            <div class="container">
-                <div class="index-logo clearfix">
+            <div class="container clearfix">
+                <div class="index-logo ">
                     <img src="img/index-logo.png" width="220" height="48" alt="Техномаркет">
                 </div>
-                <nav class="upper-menu">
-                    <a class="upper-menu search" href="#">Поиск</a>
-                    <a class="upper-menu bookmarks" href="#">Закладки</a>
-                    <a class="upper-menu basket" href="#">Корзина</a>
-                    <a class="upper-menu buy" href="#">Оформить заказ</a>
-                </nav>
+
+                <a class="search" href="#">Поиск</a>
+                <a class="bookmarks" href="#">Закладки</a>
+                <a class="basket" href="#">Корзина</a>
+                <a class="buy" href="#">Оформить заказ</a>
+
             </div>
         </div>
-        <div class="container">
-            <div class="info clearfix">
-                <div class="info-left-block">
-                    <p class="info-header">Интернет-магазин
-                        <br> строительных материалов
-                        <br> и инструментов для ремонта</p>
-                    <div class="info-phone">
-                        <div class="phone"><i class="icon-phone"></i><b>+7(495)555-05-55</b></div>
-                        <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                    </div>
-                </div>
-
-                <div class="info-right-block">
-                    <div class="enter">
-                        <a href="#" class="btn"><i class="icon-login"></i>Войти</a>
-                    </div>
-                    <div class="sign-up">
-                        <a href="#">Регистрация</a>
-                    </div>
-                </div>
+        <div class="container clearfix">
+            <div class="info">
+                <p>Интернет-магазин
+                    <br> строительных материалов
+                    <br> и инструментов для ремонта</p>
+                <p>+7 (812) 555-05-55</p>
+                <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
-            <nav class="main-navigation">
-                <ul class="main-navigation-list">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Компания</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Спецпредложения</a></li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
+            <div class="userblock">
+                <a class="login" href="#">Вход</a>
+                <a class="signup" href="#">Регистрация</a>
+            </div>
+        </div>
+        </div>
+        <nav class="main-navigation">
+            <ul class="main-navigation-list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Компания</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
     <main class="main-content">
         <div class="container">
             <section class="features clearfix">
-                <div class="features left">
+                <div class="features-left">
                     <div class="features-item features-item-materials">
                         <div class="features-name">Материалы</div>
                         <a class="features-button" href="#">На любой вкус</a>
@@ -85,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="features right">
+                <div class="features-right">
                     <div class="features-item features-item-techno">
                         <div class="features-name">Техника</div>
                         <a class="features-button" href="#">Для стройки</a>
@@ -145,30 +138,31 @@
                 <img src="img/company7.jpg" width="151" height="96" alt="AEG">
                 <img src="img/company8.jpg" width="204" height="69" alt="Metado">
             </div>
-            <section class="service">
-                <h2 class="service-headline">Сервисы</h2>
-                <p class="service-description">Хороший интернет-магазин отличается от плохого не только ценами!Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-                </p>
-                <div class="service-wrapper clearfix">
-                    <div class="left-service">
-                        <ul class="service-selector">
-                            <li class="service-selector-item"><a href="#">Доставка</a></li>
-                            <li class="service-selector-item"><a href="#">Гарантии</a></li>
-                            <li class="service-selector-item"><a href="#">Кредит</a></li>
-                        </ul>
-                    </div>
-                    <div class="right-service">
-                        <div class="service-slider">
-                            <div class="service-slide service-slide-delivery">
-                            </div>
-                            <h2 class="service-slide-headline ">Доставка</h2>
-                            <p class="service-slide-text">Мы с удовольствием доставим ваш товар прямо к вашему подъездусовершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш на этаж!
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
         </div>
 
+        <section class="service">
+            <h2 class="service-headline">Сервисы</h2>
+            <p class="service-description">Хороший интернет-магазин отличается от плохого не только ценами!Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+            </p>
+            <div class="service-wrapper clearfix">
+                <div class="left-service">
+                    <ul class="service-selector">
+                        <li class="service-selector-item"><a href="#">Доставка</a></li>
+                        <li class="service-selector-item"><a href="#">Гарантии</a></li>
+                        <li class="service-selector-item"><a href="#">Кредит</a></li>
+                    </ul>
+                </div>
+                <div class="right-service">
+                    <div class="service-slider">
+                        <div class="service-slide service-slide-delivery">
+                        </div>
+                        <h2 class="service-slide-headline ">Доставка</h2>
+                        <p class="service-slide-text">Мы с удовольствием доставим ваш товар прямо к вашему подъездусовершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш на этаж!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
         <div class="container">
             <div class="my-company clearfix ">
@@ -247,7 +241,7 @@
             </div>
         </div>
         <div class="bottom-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <section class="footer-copyright">
                     <p>© 2010–2016 Компания «Техномарт» Все права защищены</p>
                 </section>
