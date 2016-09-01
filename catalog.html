@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=cyrillic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
@@ -63,7 +65,7 @@
             <h1 class="catalog-headline">Перфораторы</h1>
         </div>
 
-        <div class="container">
+        <div class="container clearfix">
             <div class="left-column">
                 <div class="filter-name">Фильтр:</div>
                 <form class="form">
@@ -85,33 +87,32 @@
                     <h3 class="filter-headline">Производители:</h3>
                     <ul>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">BOSH</input>
+                            <input class="check-box"><img scr="" alt="check-box">BOSH
                         </li>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">ИНТЕРСКОЛ</input>
+                            <input class="check-box"><img scr="" alt="check-box">ИНТЕРСКОЛ
                         </li>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">MAKIta</input>
+                            <input class="check-box"><img scr="" alt="check-box">MAKIta
                         </li>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">Dewalt</input>
+                            <input class="check-box"><img scr="" alt="check-box">Dewalt
                         </li>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">Hitachi</input>
+                            <input class="check-box"><img scr="" alt="check-box">Hitachi
                         </li>
                     </ul>
                     <h3 class="filter-headline">Питание:</h3>
                     <ul>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">Аккумуляторные</input>
+                            <input class="check-box"><img scr="" alt="check-box">Аккумуляторные
                         </li>
                         <li>
-                            <input class="check-box"><img scr="" alt="check-box">Сетевые</input>
+                            <input class="check-box"><img scr="" alt="check-box">Сетевые
                         </li>
                     </ul>
                     <button class="form button">Показать</button>
                 </form>
-
             </div>
             <div class="right-column">
                 <div class="sorter">
@@ -214,23 +215,25 @@
                         <a class="good-card-price-btn" href="#">320500 р.</a>
                     </div>
                 </div>
-                <section class="page-nav">
-                    <span class="current">1</span>
-                    <a href="#" class="page">2</a>
-                    <a href="#" class="page">3</a>
-                    <a href="#" class="page">Следующая</a>
-                </section>
             </div>
+            <section class="page-nav">
+                <span class="current">1</span>
+                <a href="#" class="page">2</a>
+                <a href="#" class="page">3</a>
+                <a href="#" class="page">Следующая</a>
+            </section>
         </div>
         <section class="catalog-description">
-            <h2 class="catalog-description-title">Пара слов о перфораторах</h2>
-            <p class="catalog-description-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
-            </p>
+            <div class="container">
+                <h2 class="catalog-description-title">Пара слов о перфораторах</h2>
+                <p class="catalog-description-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+                </p>
+            </div>
         </section>
     </main>
     <footer class="main-footer">
         <div class="upper-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="footer-left-block">
                     <div class="index-logo">
                         <img src="img/index-logo.png" width="222" height="70" alt="Техномаркет">
@@ -276,7 +279,7 @@
             </div>
         </div>
         <div class="bottom-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <section class="footer-copyright">
                     <p>© 2010–2016 Компания «Техномарт» Все права защищены</p>
                 </section>
@@ -289,6 +292,7 @@
                 <p>Разработано — <a href="">htmlacademy.ru</a></p>
             </div>
         </div>
+
     </footer>
 </body>
 
