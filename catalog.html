@@ -4,36 +4,41 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="main-header">
         <div class="upper-header">
-            <div class="container">
-                <div class="index-logo">
+            <div class="container clearfix">
+                <div class="index-logo ">
                     <img src="img/index-logo.png" width="220" height="48" alt="Техномаркет">
                 </div>
+
                 <a class="search" href="#">Поиск</a>
                 <a class="bookmarks" href="#">Закладки</a>
                 <a class="basket" href="#">Корзина</a>
                 <a class="buy" href="#">Оформить заказ</a>
+
             </div>
         </div>
-        <div class="container">
-            <div class="info clearfix">
-                <p class="info-header">Интернет-магазин
+        <div class="container clearfix">
+            <div class="info">
+                <p>Интернет-магазин
                     <br> строительных материалов
                     <br> и инструментов для ремонта</p>
-                <div class="info-phone">
-                    <div class="phone"><i class="icon-phone"></i><b>+7(495)555-05-55</b></div>
-                    <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                </div>
-
-                <div class="userblock">
-                    <a class="login" href="#">Вход</a>
-                    <a class="signup" href="#">Регистрация</a>
-                </div>
             </div>
+            <div class="phone-adress">
+                <p class="phone-header">+7 (812) 555-05-55</p>
+                <p class="adress-header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            </div>
+            <div class="userblock">
+                <a class="login" href="#">Войти</a>
+                <a class="signup" href="#">Регистрация</a>
+            </div>
+
+        </div>
+        <div class="container clearfix">
             <nav class="main-navigation">
                 <ul class="main-navigation-list">
                     <li><a href="#">Главная</a></li>
@@ -48,13 +53,16 @@
         </div>
     </header>
     <main class="main-content">
-        <section class="breadcrumbs">
-            <a href="#" class="btn"><img src="" alt="home-icon"></a>
-            <a href="#">Каталог</a>
-            <a href="#">Инструмент</a>
-            <a href="#">Перфораторы</a>
-        </section>
-        <h3 class="catalog-headline">Перфораторы</h3>
+        <div class="container">
+            <section class="breadcrumbs">
+                <a href="#" class="btn"><img src="" alt="home-icon"></a>
+                <a href="#">Каталог</a>
+                <a href="#">Инструмент</a>
+                <a href="#">Перфораторы</a>
+            </section>
+            <h1 class="catalog-headline">Перфораторы</h1>
+        </div>
+
         <div class="container">
             <div class="left-column">
                 <div class="filter-name">Фильтр:</div>
@@ -114,7 +122,7 @@
                     <i class="icon-up-dir"></i>
                     <i class="icon-down-dir"></i>
                 </div>
-                <div class="products">
+                <div class="products clearfix">
                     <div class="good-card">
                         <div class="actions">
                             <a href="#" class="buy"><i class="icon-basket"></i>Купить</a>
