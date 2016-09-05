@@ -7,18 +7,20 @@
     <link href="css/style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Cuprum&subset=cyrillic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
-
+    <link href="css/symbols-technomart.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="main-header">
         <div class="upper-header">
             <div class="container clearfix">
-                <div class="index-logo ">
-                    <img src="img/index-logo.png" width="220" height="48" alt="Техномаркет">
+
+                <div class="header-logo">
+                    <a href="#">Техномаркет</a>
+
                 </div>
 
-                <a class="search" href="#">Поиск</a>
+                <a class="search" href="#"><i class="icon-search"></i>Поиск</a>
                 <a class="bookmarks" href="#">Закладки</a>
                 <a class="basket" href="#">Корзина</a>
                 <a class="buy" href="#">Оформить заказ</a>
@@ -32,11 +34,11 @@
                     <br> и инструментов для ремонта</p>
             </div>
             <div class="phone-adress">
-                <p class="phone-header">+7 (812) 555-05-55</p>
+                <p class="phone-header"><i class="icon-phone"></i>+7 (812) 555-05-55</p>
                 <p class="adress-header">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
             <div class="userblock">
-                <a class="login" href="#">Войти</a>
+                <a class="login" href="#"><i class="icon-login"></i>Войти</a>
                 <a class="signup" href="#">Регистрация</a>
             </div>
 
@@ -60,6 +62,7 @@
             <section class="features clearfix">
                 <div class="features-left">
                     <div class="features-item features-item-materials">
+                        <div class="flag flag-new"></div>
                         <div class="features-name">Материалы</div>
                         <a class="features-button" href="#">На любой вкус</a>
                     </div>
@@ -126,6 +129,7 @@
                 <div class="good-card good-card-new">
                     <img src="img/good4.jpg" alt="Перфоратор BOSCHBFG 9000" class="good-card-pict">
                     <b class="good-card-name">Перфоратор BOSCH BFG 9000</b>
+                    <span class="good-card-oldprice none">32500р.</span>
                     <a class="good-card-price-btn" href="#">320500 р.</a>
                 </div>
             </div>
@@ -133,16 +137,32 @@
                 <h1 class="popular-headline">Популярные производители</h1>
                 <a class="popular-btn" href="#">Все произвоители</a>
             </div>
-            <div class="producers-gallery">
-                <a href=""><img src="img/company1.jpg" width="126" height="37" alt="Bosh"></a>
-                <a href=""><img src="img/company2.jpg" width="123" height="40" alt="Makita"></a>
-                <a href=""><img src="img/company3.jpg" width="146" height="44" alt="DeWolt"></a>
-                <a href=""><img src="img/company4.jpg" width="200" height="88" alt="Интерскол"></a>
-                <a href=""><img src="img/company5.jpg" width="169" height="31" alt="Hitachi"></a>
-                <a href=""><img src="img/company6.jpg" width="121" height="73" alt="LG"></a>
-                <a href=""><img src="img/company7.jpg" width="151" height="96" alt="AEG"></a>
-                <a href=""><img src="img/company8.jpg" width="204" height="69" alt="Metado"></a>
-            </div>
+            <ul class="producers-gallery">
+                <li class="gallery company1">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company2">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company3">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company4">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company5">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company6">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company7">
+                    <a href="#"></a>
+                </li>
+                <li class="gallery company8">
+                    <a href="#"></a>
+                </li>
+            </ul>
 
         </div>
 
@@ -159,7 +179,7 @@
                 <div class="service-wrapper clearfix">
                     <div class="left-service">
                         <ul class="service-selector">
-                            <li class="service-selector-item"><a href="#">Доставка</a></li>
+                            <li class="service-selector-item active"><a href="#">Доставка</a></li>
                             <li class="service-selector-item"><a href="#">Гарантии</a></li>
                             <li class="service-selector-item"><a href="#">Кредит</a></li>
                         </ul>
@@ -212,8 +232,8 @@
         <div class="upper-footer">
             <div class="container clearfix">
                 <div class="footer-left-block">
-                    <div class="index-logo">
-                        <img src="img/index-logo.png" width="222" height="70" alt="Техномаркет">
+                    <div class="footer-logo">
+                        <a href="#">Техномарт</a>
                     </div>
                     <div class="footer-contacts">
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
@@ -261,12 +281,17 @@
                     <p>© 2010–2016 Компания «Техномарт» Все права защищены</p>
                 </section>
                 <section class="footer-social">
-                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                    <a class="social-btn social-btn-vk" href="#"><i class="icon-vk"></i></a>
+                    <a class="social-btn social-btn-fb" href="#"></a>
+                    <a class="social-btn social-btn-inst" href="#"></a>
                 </section>
-                <p>Обратная связь: <span>mail@htmlacademy.ru</span></p>
-                <p>Разработано — <a href="">htmlacademy.ru</a></p>
+                <div class="footer-mail">
+                    <p>Обратная связь: <span>mail@htmlacademy.ru</span></p>
+                </div>
+
+                <div class="footer-academy">
+                    <p>Разработано — <a href="">htmlacademy.ru</a></p>
+                </div>
             </div>
         </div>
 
